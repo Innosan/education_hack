@@ -1,10 +1,6 @@
-# Nuxt 3 Minimal Starter
+# Установка
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
-
-## Setup
-
-Make sure to install the dependencies:
+Сначала установите зависимости:
 
 ```bash
 # npm
@@ -20,9 +16,9 @@ yarn install
 bun install
 ```
 
-## Development Server
+## Запуск сервера
 
-Start the development server on `http://localhost:3000`:
+Серсер запускается на `http://localhost:3000`:
 
 ```bash
 # npm
@@ -40,7 +36,7 @@ bun run dev
 
 ## Production
 
-Build the application for production:
+Забилдить проект под продакшн:
 
 ```bash
 # npm
@@ -56,7 +52,7 @@ yarn build
 bun run build
 ```
 
-Locally preview production build:
+Локальное превью билда:
 
 ```bash
 # npm
@@ -71,5 +67,3 @@ yarn preview
 # bun
 bun run preview
 ```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
